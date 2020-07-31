@@ -9,4 +9,4 @@ Structure of the project:
 
 To test offline mode just turn off wi-fi on your mobile device.
 
-As for background minitoring internet connection and sending request there are some restrictions in ios. For background fetch and background task ios device has period of time from 15 to couple of hours for makin g only 1 request. So I gues if user needs to send request as queckly as posible it is not the right way.
+As for background minitoring internet connection and sending request there are some restrictions in ios. For background fetch and background task ios device has period of time from 15 to couple of hours for making only 1 request. So I gues if user needs to send request as queckly as posible it is not the right way.

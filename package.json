@@ -3,7 +3,8 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "android-dev": "adb reverse tcp:8081 tcp:8081 && react-native run-android"
   },
   "dependencies": {
     "@react-native-community/netinfo": "5.9.2",
@@ -24,6 +25,8 @@
     "react-native-web": "~0.11.7",
     "react-redux": "^7.2.1",
     "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-persist-expo-filesystem": "^2.0.0",
     "redux-thunk": "^2.3.0",
     "thunk": "^0.0.1"
   },
